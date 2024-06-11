@@ -1,0 +1,35 @@
+
+
+.web_heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: white;
+
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 6px;
+    background-color: white;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    height: fit-content;
+    width: fit-content;
+    font-size: 19px;
+    margin-right: 20px;
+    padding: 6px;
+    opacity: 0.7;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(27, 27, 197);
+}
+a:hover{
+  opacity: 1;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/login.js"></script>
+</head>
+<body>
+    <h1 style="color: black; margin-left: 10px;">Login</h1>
+    <form class="l_form">
+
+        <label for="user_email">Email: </label>
+        <input type="email" id="u_email" name="user_email">
+
+        <label for="user_pass">Password: </label>
+        <input type="password" id="u_pass" name="user_pass">
+        <div class="l_options">
+            <button id="btn_login">Login</button>
+            <div class="alternate">
+                <h4 style="color: black; font-size: 17px;">Haven't Registered?</h4>
+                <a href="/register" id="reg">Register</a>
+            </div>
+        </div>
+    </form>
+    <p class="server_msg"></p>
+</body>
+</html>

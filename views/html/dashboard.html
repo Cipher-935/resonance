@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <script src="../js/dash.js"></script>
+</head>
+<body>
+ 
+    <h1 class="session_greet"></h1>
+     <div class="main_frame">
+     
+        <div class="header_div">
+
+            <div class="user_section">
+                    
+                <div class="user_heading">
+                    <h3 style="margin-left: 5px;">Users</h3>
+                    <button class="btn_sort_users">Sort</button>
+                </div>
+
+                <div class="user_divider"></div>
+
+        
+            </div>
+
+            <div class="divider">
+                  
+                </div>
+
+            <div class="group_section">
+
+                <div class="group_heading">
+                    <h3 style="margin-left: 5px;">Available Groups</h3>
+                    <div class="group_header_btns">
+
+                        <button class="btn_create">Create group</button>
+                        <button class="btn_sort_group">Sort</button>
+
+                        </div>
+               </div>
+               <div class="group_divider"></div>
+
+            </div>
+
+        </div>
+
+     </div>
+
+<div class="group_form">
+    <label>Group Title: </label>
+    <input type="text" id="g_title">
+
+    <label>Group Decription <button class="doubt_description">?</button></label>
+    <textarea id='g_dec' rows="9" cols="20"></textarea>
+
+    <label>Group Password <button class="doubt_pass">?</button></label>
+    <input type="password" id="g_secret">
+
+    <label>Group Size <button class="doubt_size">?</button></label>
+    <input type="number" id="g_size">
+
+    <div class="form_btns">
+          <button class="btn_make">Make</button>
+          <button class="btn_cancel">Cancel</button>
+    </div>
+</div>  
+
+<div class="enter_form">
+
+    <div class="info-sec">
+        <label>Group Password</label>
+        <input type="password" id="entry_pass">
+    </div>
+
+    <div class="time-info">
+           <label>Enter the time limit for the room</label>
+           <input type="number" id="timeLimit">
+        </div>
+
+    <div class="entry_form_btns">
+        <button class="b_enter">Enter</button>
+        <button class="btn_cancel">Abort</button>
+    </div>
+</div>
+
+<div class="group_details">
+   
+</div>
+
+</body>
+</html>
